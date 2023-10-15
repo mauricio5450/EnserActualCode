@@ -1,19 +1,28 @@
-.slide ul,
-.slide h1{
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body{
-    background-color: #f2f2f2;
+.grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas: "sidebar header header header"
+    "sidebar main main main";
+    height: 100vh;
 }
 
-.slide{
-
+.header {
+    grid-area: header;
+    height: 70px;
+    background-color: blue;
+}
+#sidebar {
+    grid-area: sidebar;
     height: 100%;
-    width: 180px;
-    position: absolute;
-    background-color: #fff;
-    transition: 0.5s ease;
+    background-color: black;
+}
+.main-container {
+    grid-area: main;
+    background-color: white;
 }
