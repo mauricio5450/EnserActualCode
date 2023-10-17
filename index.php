@@ -84,6 +84,54 @@
                 </div>
                     <!--This is the end of the sidebar-->
             </aside>
+            <main>
+                <div></div>
+                <h1>Dashboard</h1>
+            </main>
+            <div class="right-section">
+                <div class="nav">
+                    <button id="menu-btn">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </button>
+                    <div class="dark-mode">
+                        <span class="material-symbols-outlined active">
+                            light_mode
+                        </span>
+                        <span class="material-symbols-outlined">
+                            dark_mode
+                        </span>
+                    </div>
+                    <div class="profile">
+                        <div class="info">
+                            <p>Hey, User</p>
+                        </div>
+                        <div class="profile-pic">
+                            <img src="images/Sparkytest2.jpg">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="reminders">
+                    <div class="header">
+                        <h2>Reminders</h2>
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                    </div>
+                    <div class="notifications">
+                        <div class="icon">
+                            <h2>Calendar</h2>
+                            <span class="material-symbols-outlined">
+                                calendar_month
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        <script src="Java/index.js"></script>
     </body>
 </html>
